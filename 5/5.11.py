@@ -5,7 +5,7 @@ def f(n):
         n//=2
     return s[::-1]
 ans=[]
-for i in range(28,1000):
+for i in range(1,1000):
     b=f(i)
     if i%3==0:
         b+='010'
